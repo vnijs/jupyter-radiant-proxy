@@ -30,5 +30,5 @@ def setup_radiant() -> Dict[str, Any]:
         "command": _radiant_command,
         "timeout": 30,
         "new_browser_tab": True,
-        "launcher_entry": {"title": "radiant", "icon_path": _get_icon_path()},
+        "launcher_entry": {"title": "Radiant", "icon_path": _get_icon_path()},
     }
